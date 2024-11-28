@@ -38,7 +38,7 @@ const LeftNavBar = async () => {
               </Link>
             </div>
             Music
-            <div className="bg-primary my-2 h-9 w-9 rounded-full  ">
+            {/* <div className="bg-primary my-2 h-9 w-9 rounded-full  ">
               <Link href="/dashboard/translate">
                 <LanguagesIcon className="m-auto mt-1" />
               </Link>
@@ -49,7 +49,7 @@ const LeftNavBar = async () => {
                 <GlobeIcon className="m-auto mt-1" />
               </Link>
             </div>
-            Country
+            Country */}
           </div>
           {user ? (
             <>
